@@ -9,8 +9,11 @@ System.out.println("enter a year number");
 year=s.nextInt();
 if(year%400==0)
 {
+  if(year%100==0)
+  {
 leap=year;
 System.out.println("that is a leap year"+leap);
+}
 }
 else
 {
